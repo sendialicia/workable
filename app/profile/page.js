@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function profile(){
     return(
         <section className="bg-bg-[#F8F7F3] min-h-screen flex items-center justify-center px-4 py-10">
@@ -12,7 +14,9 @@ export default function profile(){
 
                 <nav className="mt-8 space-y-4 text-lg">
                     <div className="border-b pb-2 font-semibold">Edit Profil</div>
-                    <div className="border-b pb-2 hover:underline cursor-pointer">Daftar Lamaran</div>
+                    <Link href="profile-2" passHref>
+                        <div className="border-b pb-2 hover:underline cursor-pointer">Daftar Lamaran</div>
+                    </Link>
                 </nav>
                 </div>
 

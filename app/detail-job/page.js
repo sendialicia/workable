@@ -2,8 +2,8 @@ import Image from "next/image";
 
 export default function detailJob(){
     return(
-        <section className="bg-[#FFFBEB] min-h-screen py-12 px-6 flex justify-center">
-        <div className="bg-[#FFFBEB] border rounded-2xl shadow-md max-w-6xl w-full flex flex-col md:flex-row overflow-hidden">
+        <section className="bg-[#F8F7F3] min-h-screen py-12 px-6 flex justify-center">
+        <div className="bg-[#F8F7F3] border rounded-2xl shadow-md max-w-6xl w-full flex flex-col md:flex-row overflow-hidden">
 
             {/* Kiri: Sidebar Job Info */}
             <div className="bg-[#0A3255] text-white p-6 md:w-[320px] flex flex-col gap-4">
